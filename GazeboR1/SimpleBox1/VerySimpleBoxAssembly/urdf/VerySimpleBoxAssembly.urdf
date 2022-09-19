@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="VerySimpleBoxAssembly">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.093937 0.52568 0.79948"
+        rpy="0 0 0" />
+      <mass
+        value="36" />
+      <inertia
+        ixx="22.197"
+        ixy="1.9214E-31"
+        ixz="4.2299E-16"
+        iyy="25.65"
+        iyz="-4.2299E-16"
+        izz="12.332" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="LR_wheel">
+    <inertial>
+      <origin
+        xyz="0 -0.0381 0"
+        rpy="0 0 0" />
+      <mass
+        value="2" />
+      <inertia
+        ixx="0.017437"
+        ixy="-3.6104E-35"
+        ixz="0"
+        iyy="0.031138"
+        iyz="1.6175E-34"
+        izz="0.017437" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/LR_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/LR_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LR_wheel_cont"
+    type="continuous">
+    <origin
+      xyz="-0.21086 -0.46928 0.33518"
+      rpy="1.5708 1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="LR_wheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="0"
+      velocity="28.8" />
+  </joint>
+  <link
+    name="LF_wheel">
+    <inertial>
+      <origin
+        xyz="0 -0.0381 2.2204E-16"
+        rpy="0 0 0" />
+      <mass
+        value="2" />
+      <inertia
+        ixx="0.017437"
+        ixy="-3.6104E-35"
+        ixz="0"
+        iyy="0.031138"
+        iyz="1.4294E-34"
+        izz="0.017437" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/LF_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/LF_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LF_wheel_cont"
+    type="continuous">
+    <origin
+      xyz="-0.21086 -1.1297 0.33518"
+      rpy="1.5708 1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="LF_wheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="0"
+      velocity="28.8" />
+  </joint>
+  <link
+    name="RF_wheel">
+    <inertial>
+      <origin
+        xyz="0 -0.0381 2.2204E-16"
+        rpy="0 0 0" />
+      <mass
+        value="2" />
+      <inertia
+        ixx="0.017437"
+        ixy="-3.6104E-35"
+        ixz="4.1762E-50"
+        iyy="0.031138"
+        iyz="1.0344E-34"
+        izz="0.017437" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/RF_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/RF_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RF_wheel_cont"
+    type="continuous">
+    <origin
+      xyz="0.39874 -1.1297 0.33518"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="RF_wheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="0"
+      velocity="28.8" />
+  </joint>
+  <link
+    name="RR_wheel">
+    <inertial>
+      <origin
+        xyz="0 -0.0381 0"
+        rpy="0 0 0" />
+      <mass
+        value="2" />
+      <inertia
+        ixx="0.017437"
+        ixy="-3.6104E-35"
+        ixz="4.1762E-50"
+        iyy="0.031138"
+        iyz="1.0344E-34"
+        izz="0.017437" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/RR_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://VerySimpleBoxAssembly/meshes/RR_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RR_wheel_cont"
+    type="continuous">
+    <origin
+      xyz="0.39874 -0.46928 0.33518"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="RR_wheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="0"
+      velocity="28.8" />
+  </joint>
+</robot>
