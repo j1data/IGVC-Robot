@@ -2,15 +2,15 @@
   <model name='HitBox'>
     <link name='Frame'>
       <inertial>
-        <pose>0.3302 0.25398 -0.4572 0 -0 0</pose>
+        <pose>0.3264662 0.4502404 0.1869186 0 -0 0</pose>
         <mass>35.592</mass>
         <inertia>
           <ixx>550.90647</ixx>
-          <ixy>2.34725</ixy>
-          <ixz>-0.13228</ixz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
           <iyy>656.95522</iyy>
-          <iyz>2.64855</iyz>
-          <izz>-317.17289</izz>
+          <iyz>0</iyz>
+          <izz>317.17289</izz>
         </inertia>
       </inertial>
       <collision name='Frame_collision'>
@@ -150,7 +150,7 @@
       <pose relative_to='FL_Axel'>0 0 0 0 -0 3.14159265</pose>
       <inertial>
         <pose>0.024308 0 0 0 -0 0</pose>
-        <mass>1.4377</mass>
+        <mass>1</mass>
         <inertia>
           <ixx>0.006867</ixx>
           <ixy>-1.0588e-20</ixy>
