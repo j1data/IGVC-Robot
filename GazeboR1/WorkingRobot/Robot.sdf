@@ -1,0 +1,256 @@
+<sdf version='1.7'>
+  <model name='Robot'>
+    <link name='Frame'>
+      <inertial>
+        <pose>0.3264662 0.4502404 0.1869186 0 -0 0</pose>
+        <mass>35.592</mass>
+        <inertia>
+          <ixx>550.90647</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>656.95522</iyy>
+          <iyz>0</iyz>
+          <izz>317.17289</izz>
+        </inertia>
+      </inertial>
+      <collision name='Frame_collision'>
+        <pose>0 0 0.04826 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Frame.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Frame_visual'>
+        <pose>0 0 0.04826 0 -0 3.14159265</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Frame_Detailed.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='BL_Axel' type='revolute'>
+      <pose relative_to='Frame'>-0.012938 0.1062 .099568 1.5708 -0 0</pose>
+      <parent>Frame</parent>
+      <child>BL_Wheel</child>
+      <axis>
+        <xyz>0 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='BL_Wheel'>
+      <pose relative_to='BL_Axel'>0 0 0 0 -0 3.14159265</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.006867</ixx>
+          <ixy>-1.0588e-20</ixy>
+          <ixz>1.9852e-20</ixz>
+          <iyy>0.0037033</iyy>
+          <iyz>-5.9778e-36</iyz>
+          <izz>0.0037033</izz>
+        </inertia>
+      </inertial>
+      <collision name='BL_Wheel_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Wheel_Detailed.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='BL_Wheel_visual'>
+        <pose> 0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Wheel_Detailed.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='BR_Axel' type='revolute'>
+      <pose relative_to='Frame'>0.67333 0.1062 .099568 1.5708 -0 0</pose>
+      <parent>Frame</parent>
+      <child>BR_Wheel</child>
+      <axis>
+        <xyz>0 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='BR_Wheel'>
+      <pose relative_to='BR_Axel'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.024308 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.006867</ixx>
+          <ixy>-1.0588e-20</ixy>
+          <ixz>6.6174e-21</ixz>
+          <iyy>0.0037033</iyy>
+          <iyz>-5.9778e-36</iyz>
+          <izz>0.0037033</izz>
+        </inertia>
+      </inertial>
+      <collision name='BR_Wheel_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Wheel_Detailed.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='BR_Wheel_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Wheel_Detailed.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='FL_Axel' type='revolute'>
+      <pose relative_to='Frame'>-0.012938 0.8082 .099568 1.5708 -0 0</pose>
+      <parent>Frame</parent>
+      <child>FL_Wheel</child>
+      <axis>
+        <xyz>0 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='FL_Wheel'>
+      <pose relative_to='FL_Axel'>0 0 0 0 -0 3.14159265</pose>
+      <inertial>
+        <pose>0.024308 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.006867</ixx>
+          <ixy>-1.0588e-20</ixy>
+          <ixz>1.9852e-20</ixz>
+          <iyy>0.0037033</iyy>
+          <iyz>-5.9778e-36</iyz>
+          <izz>0.0037033</izz>
+        </inertia>
+      </inertial>
+      <collision name='FL_Wheel_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Wheel_Detailed.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='FL_Wheel_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Wheel_Detailed.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='FR_Axel' type='revolute'>
+      <pose relative_to='Frame'>0.67333 0.8082 .099568 1.5708 -0 0</pose>
+      <parent>Frame</parent>
+      <child>FR_Wheel</child>
+      <axis>
+        <xyz>0 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='FR_Wheel'>
+      <pose relative_to='FR_Axel'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.024308 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.006867</ixx>
+          <ixy>-1.0588e-20</ixy>
+          <ixz>6.6174e-21</ixz>
+          <iyy>0.0037033</iyy>
+          <iyz>-5.9778e-36</iyz>
+          <izz>0.0037033</izz>
+        </inertia>
+      </inertial>
+      <collision name='FR_Wheel_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Wheel_Detailed.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='FR_Wheel_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>Wheel_Detailed.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <plugin name='Drive' filename='libgazebo_ros_diff_drive.so'>
+      <plugin name='wheel_drive_controller' filename='libgazebo_ros_diff_drive.so'>
+        <num_wheel_pairs>2</num_wheel_pairs>
+        <left_joint>FL_Axel</left_joint>
+        <left_joint>BL_Axel</left_joint>
+        <right_joint>FR_Axel</right_joint>
+        <right_joint>BR_Axel</right_joint>
+        <wheel_separation>0.702</wheel_separation>
+        <wheel_diameter>0.1981</wheel_diameter>
+        <max_wheel_torque>20.0</max_wheel_torque>
+        <max_wheel_acceleration>10.0</max_wheel_acceleration>
+        <odometry_source>world</odometry_source>
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>Frame</robot_base_frame>
+        <ros>
+          <namespace>/</namespace>
+          <argument>/cmd_vel:=cmd_vel</argument>
+          <argument>/odom:=odom</argument>
+        </ros>
+        <publish_odom>1</publish_odom>
+        <publish_odom_tf>1</publish_odom_tf>
+        <update_rate>100.0</update_rate>
+      </plugin>
+    </plugin>
+  </model>
+</sdf>

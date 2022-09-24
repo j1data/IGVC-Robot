@@ -1,0 +1,489 @@
+<sdf version='1.7'>
+  <world name='default'>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <audio>
+      <device>default</device>
+    </audio>
+    <wind/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <model name='Robot'>
+      <link name='Frame'>
+        <inertial>
+          <pose>0.326466 0.45024 0.186919 0 -0 0</pose>
+          <mass>35.592</mass>
+          <inertia>
+            <ixx>550.906</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>656.955</iyy>
+            <iyz>0</iyz>
+            <izz>317.173</izz>
+          </inertia>
+        </inertial>
+        <collision name='Frame_collision'>
+          <pose>0 0 0.04826 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Frame.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Frame_visual'>
+          <pose>0 0 0.04826 0 -0 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Frame_Detailed.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='BL_Axel' type='revolute'>
+        <pose relative_to='Frame'>-0.012938 0.1062 0.099568 1.5708 -0 0</pose>
+        <parent>Frame</parent>
+        <child>BL_Wheel</child>
+        <axis>
+          <xyz>0 0 0</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='BL_Wheel'>
+        <pose relative_to='BL_Axel'>0 0 0 0 -0 3.14159</pose>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.006867</ixx>
+            <ixy>-1.0588e-20</ixy>
+            <ixz>1.9852e-20</ixz>
+            <iyy>0.0037033</iyy>
+            <iyz>-5.9778e-36</iyz>
+            <izz>0.0037033</izz>
+          </inertia>
+        </inertial>
+        <collision name='BL_Wheel_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='BL_Wheel_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='BR_Axel' type='revolute'>
+        <pose relative_to='Frame'>0.67333 0.1062 0.099568 1.5708 -0 0</pose>
+        <parent>Frame</parent>
+        <child>BR_Wheel</child>
+        <axis>
+          <xyz>0 0 0</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='BR_Wheel'>
+        <pose relative_to='BR_Axel'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0.024308 0 0 0 -0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.006867</ixx>
+            <ixy>-1.0588e-20</ixy>
+            <ixz>6.6174e-21</ixz>
+            <iyy>0.0037033</iyy>
+            <iyz>-5.9778e-36</iyz>
+            <izz>0.0037033</izz>
+          </inertia>
+        </inertial>
+        <collision name='BR_Wheel_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='BR_Wheel_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='FL_Axel' type='revolute'>
+        <pose relative_to='Frame'>-0.012938 0.8082 0.099568 1.5708 -0 0</pose>
+        <parent>Frame</parent>
+        <child>FL_Wheel</child>
+        <axis>
+          <xyz>0 0 0</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='FL_Wheel'>
+        <pose relative_to='FL_Axel'>0 0 0 0 -0 3.14159</pose>
+        <inertial>
+          <pose>0.024308 0 0 0 -0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.006867</ixx>
+            <ixy>-1.0588e-20</ixy>
+            <ixz>1.9852e-20</ixz>
+            <iyy>0.0037033</iyy>
+            <iyz>-5.9778e-36</iyz>
+            <izz>0.0037033</izz>
+          </inertia>
+        </inertial>
+        <collision name='FL_Wheel_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='FL_Wheel_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='FR_Axel' type='revolute'>
+        <pose relative_to='Frame'>0.67333 0.8082 0.099568 1.5708 -0 0</pose>
+        <parent>Frame</parent>
+        <child>FR_Wheel</child>
+        <axis>
+          <xyz>0 0 0</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='FR_Wheel'>
+        <pose relative_to='FR_Axel'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0.024308 0 0 0 -0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.006867</ixx>
+            <ixy>-1.0588e-20</ixy>
+            <ixz>6.6174e-21</ixz>
+            <iyy>0.0037033</iyy>
+            <iyz>-5.9778e-36</iyz>
+            <izz>0.0037033</izz>
+          </inertia>
+        </inertial>
+        <collision name='FR_Wheel_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='FR_Wheel_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <plugin name='Drive' filename='libgazebo_ros_diff_drive.so'>
+        <plugin name='wheel_drive_controller' filename='libgazebo_ros_diff_drive.so'>
+          <num_wheel_pairs>2</num_wheel_pairs>
+          <left_joint>FL_Axel</left_joint>
+          <left_joint>BL_Axel</left_joint>
+          <right_joint>FR_Axel</right_joint>
+          <right_joint>BR_Axel</right_joint>
+          <wheel_separation>0.702</wheel_separation>
+          <wheel_diameter>0.1981</wheel_diameter>
+          <max_wheel_torque>20.0</max_wheel_torque>
+          <max_wheel_acceleration>10.0</max_wheel_acceleration>
+          <odometry_source>world</odometry_source>
+          <odometry_frame>odom</odometry_frame>
+          <robot_base_frame>Frame</robot_base_frame>
+          <ros>
+            <namespace>/</namespace>
+            <argument>/cmd_vel:=cmd_vel</argument>
+            <argument>/odom:=odom</argument>
+          </ros>
+          <publish_odom>1</publish_odom>
+          <publish_odom_tf>1</publish_odom_tf>
+          <update_rate>100.0</update_rate>
+        </plugin>
+      </plugin>
+      <pose>-0.163626 -0.598729 0 0 -0 0</pose>
+    </model>
+    <model name='my_ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>50 50</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>50 50</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/GroundPlane/groundplane.material</uri>
+              <name>MyGroundPlane/Image</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.03201 -0.024376 0 0 -0 0</pose>
+    </model>
+    <state world_name='default'>
+      <sim_time>0 0</sim_time>
+      <real_time>0 0</real_time>
+      <wall_time>1664022727 592266624</wall_time>
+      <iterations>0</iterations>
+      <model name='Robot'>
+        <pose>-0.163566 -0.596764 -5.2e-05 1e-06 0.001494 1.4e-05</pose>
+        <scale>1 1 1</scale>
+        <link name='BL_Wheel'>
+          <pose>-0.176357 -0.490564 0.099535 -1.55124 -0.001497 -3.14158</pose>
+          <velocity>0.002553 0.014444 0.011671 -0.121667 0.016382 0.001056</velocity>
+          <acceleration>-0.092575 0.118915 0.254158 1.2e-05 -0.214194 0.002653</acceleration>
+          <wrench>-0.092575 0.118915 0.254158 0 -0 0</wrench>
+        </link>
+        <link name='BR_Wheel'>
+          <pose>0.50991 -0.490554 0.098516 1.56785 0.001529 1.4e-05</pose>
+          <velocity>0.002331 0.01512 0.001721 -0.153804 0.023479 0.001037</velocity>
+          <acceleration>-0.51453 0.252033 2.65967 -2.72515 1.38593 -0.149845</acceleration>
+          <wrench>-0.51453 0.252033 2.65967 0 -0 0</wrench>
+        </link>
+        <link name='FL_Wheel'>
+          <pose>-0.176367 0.211436 0.099535 -1.55125 -0.001497 -3.14158</pose>
+          <velocity>0.001937 0.014443 0.011499 -0.121898 0.016422 0.00106</velocity>
+          <acceleration>-0.089692 0.117695 -0.00134 1e-05 -0.2137 0.001873</acceleration>
+          <wrench>-0.089692 0.117695 -0.00134 0 -0 0</wrench>
+        </link>
+        <link name='FR_Wheel'>
+          <pose>0.5099 0.211446 0.098515 1.56785 0.001507 1.4e-05</pose>
+          <velocity>0.002002 0.014988 -0.000902 -0.152562 0.013006 0.001134</velocity>
+          <acceleration>0.048109 -0.007468 -2.041 0.000235 -0.489964 0.044212</acceleration>
+          <wrench>0.048109 -0.007468 -2.041 0 -0 0</wrench>
+        </link>
+        <link name='Frame'>
+          <pose>-0.163566 -0.596764 -5.2e-05 1e-06 0.001494 1.4e-05</pose>
+          <velocity>0.00101 0.014436 0.011482 -0.000189 0.016423 0.000879</velocity>
+          <acceleration>-0.111841 0.140935 0.24442 -0.244809 -0.223925 0.001482</acceleration>
+          <wrench>-3.98063 5.01616 8.69938 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='my_ground_plane'>
+        <pose>0.03201 -0.024376 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0.03201 -0.024376 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose>0 0 10 0 -0 0</pose>
+      </light>
+    </state>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>5.63165 -5.88392 2.18987 0 0.275643 2.35619</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+  </world>
+</sdf>
