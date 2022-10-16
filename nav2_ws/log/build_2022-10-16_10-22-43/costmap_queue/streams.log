@@ -1,0 +1,68 @@
+[0.041s] Invoking command in '/home/arc/nav2_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_dwb_controller/costmap_queue -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/costmap_queue
+[0.066s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.347s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.361s] -- Found nav2_common: 1.1.2 (/home/arc/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.362s] -- Found nav2_costmap_2d: 1.1.2 (/home/arc/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[0.421s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.428s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.901s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.904s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.155s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.615s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.902s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.060s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.046s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.048s] -- Configured cppcheck include dirs: /home/arc/nav2_ws/src/navigation2/nav2_dwb_controller/costmap_queue/include
+[10.048s] -- Configured cppcheck exclude dirs and/or files: 
+[10.050s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.050s] -- Configured cpplint exclude dirs and/or files: 
+[10.051s] -- Added test 'lint_cmake' to check CMake code style
+[10.053s] -- Added test 'uncrustify' to check C / C++ code style
+[10.053s] -- Configured uncrustify additional arguments: 
+[10.054s] -- Added test 'xmllint' to check XML markup files
+[10.058s] -- Configuring done
+[10.318s] -- Generating done
+[10.323s] -- Build files have been written to: /home/arc/nav2_ws/build/costmap_queue
+[10.347s] Invoked command in '/home/arc/nav2_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_dwb_controller/costmap_queue -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/costmap_queue
+[10.348s] Invoking command in '/home/arc/nav2_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/costmap_queue -- -j4 -l4
+[10.428s] [35m[1mConsolidate compiler generated dependencies of target costmap_queue[0m
+[10.464s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[10.481s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[10.492s] [ 27%] Built target costmap_queue
+[10.516s] [ 45%] Built target gtest
+[10.524s] [ 63%] Built target gtest_main
+[10.547s] [35m[1mConsolidate compiler generated dependencies of target utest[0m
+[10.577s] [35m[1mConsolidate compiler generated dependencies of target mbq_test[0m
+[10.581s] [ 81%] Built target utest
+[10.602s] [100%] Built target mbq_test
+[10.623s] Invoked command in '/home/arc/nav2_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/costmap_queue -- -j4 -l4
+[10.685s] Invoking command in '/home/arc/nav2_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/costmap_queue
+[10.700s] -- Install configuration: "Release"
+[10.701s] -- Execute custom install script
+[10.702s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/lib/libcostmap_queue.a
+[10.703s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/include//costmap_queue/costmap_queue.hpp
+[10.703s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/include//costmap_queue/limited_costmap_queue.hpp
+[10.704s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/include//costmap_queue/map_based_queue.hpp
+[10.705s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/environment/library_path.sh
+[10.705s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/environment/library_path.dsv
+[10.707s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/ament_index/resource_index/package_run_dependencies/costmap_queue
+[10.709s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/ament_index/resource_index/parent_prefix_path/costmap_queue
+[10.710s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.sh
+[10.711s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.dsv
+[10.712s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/environment/path.sh
+[10.712s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/environment/path.dsv
+[10.713s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/local_setup.bash
+[10.714s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/local_setup.sh
+[10.714s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/local_setup.zsh
+[10.715s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/local_setup.dsv
+[10.715s] -- Symlinking: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/package.dsv
+[10.734s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/ament_index/resource_index/packages/costmap_queue
+[10.735s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.736s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_libraries-extras.cmake
+[10.736s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig.cmake
+[10.737s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig-version.cmake
+[10.737s] -- Up-to-date symlink: /home/arc/nav2_ws/install/costmap_queue/share/costmap_queue/package.xml
+[10.753s] Invoked command in '/home/arc/nav2_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/costmap_queue

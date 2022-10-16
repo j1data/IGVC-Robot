@@ -1,0 +1,85 @@
+[0.049s] Invoking command in '/home/arc/nav2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_behavior_tree/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_bt_navigator -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_bt_navigator
+[0.078s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.403s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.419s] -- Found nav2_common: 1.1.2 (/home/arc/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.419s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.490s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.496s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.511s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.540s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.737s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.741s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.010s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.396s] -- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.619s] -- Found rclcpp_lifecycle: 16.0.1 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.713s] -- Found rclcpp_components: 16.0.1 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.855s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.982s] -- Found nav2_behavior_tree: 1.1.2 (/home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[3.538s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.541s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.440s] -- Found nav2_core: 1.1.2 (/home/arc/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[28.083s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[28.252s] -- Added test 'copyright' to check source files copyright and LICENSE
+[28.257s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.259s] -- Configured cppcheck include dirs: /home/arc/nav2_ws/src/navigation2/nav2_bt_navigator/include
+[28.259s] -- Configured cppcheck exclude dirs and/or files: 
+[28.264s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[28.264s] -- Configured cpplint exclude dirs and/or files: 
+[28.267s] -- Added test 'lint_cmake' to check CMake code style
+[28.272s] -- Added test 'uncrustify' to check C / C++ code style
+[28.273s] -- Configured uncrustify additional arguments: 
+[28.274s] -- Added test 'xmllint' to check XML markup files
+[28.280s] -- Configuring done
+[28.559s] -- Generating done
+[28.565s] -- Build files have been written to: /home/arc/nav2_ws/build/nav2_bt_navigator
+[28.589s] Invoked command in '/home/arc/nav2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_behavior_tree/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_bt_navigator -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_bt_navigator
+[28.590s] Invoking command in '/home/arc/nav2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_behavior_tree/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_bt_navigator -- -j4 -l4
+[28.678s] [35m[1mConsolidate compiler generated dependencies of target bt_navigator_core[0m
+[28.736s] [ 66%] Built target bt_navigator_core
+[28.760s] [35m[1mConsolidate compiler generated dependencies of target bt_navigator[0m
+[28.805s] [100%] Built target bt_navigator
+[28.825s] Invoked command in '/home/arc/nav2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_behavior_tree/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_bt_navigator -- -j4 -l4
+[28.884s] Invoking command in '/home/arc/nav2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_behavior_tree/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_bt_navigator
+[28.897s] -- Install configuration: "Release"
+[28.899s] -- Execute custom install script
+[28.899s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[28.900s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+[28.901s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+[28.901s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/navigator.hpp
+[28.902s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/navigators/navigate_through_poses.hpp
+[28.902s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/navigators/navigate_to_pose.hpp
+[28.903s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/follow_point.xml
+[28.903s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/nav_to_pose_with_consistent_replanning_and_if_path_becomes_invalid.xml
+[28.903s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml
+[28.904s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+[28.904s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_to_pose_w_replanning_goal_patience_and_recovery.xml
+[28.904s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_recovery_and_replanning_only_if_path_becomes_invalid.xml
+[28.904s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_distance.xml
+[28.905s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_only_if_goal_is_updated.xml
+[28.905s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_only_if_path_becomes_invalid.xml
+[28.905s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_speed.xml
+[28.905s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_time.xml
+[28.906s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/odometry_calibration.xml
+[28.906s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.sh
+[28.907s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.dsv
+[28.907s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+[28.907s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+[28.908s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+[28.909s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.dsv
+[28.909s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+[28.909s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.dsv
+[28.909s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+[28.909s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+[28.910s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+[28.910s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.dsv
+[28.910s] -- Symlinking: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.dsv
+[28.929s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+[28.930s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/rclcpp_components/nav2_bt_navigator
+[28.930s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.930s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[28.930s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.930s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+[28.930s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+[28.930s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml
+[28.937s] Invoked command in '/home/arc/nav2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_behavior_tree:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_behavior_tree/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_bt_navigator

@@ -1,0 +1,2 @@
+/home/arc/ros2_ws/devel/./setup.fish 1
+/home/arc/ros2_ws/devel/./local_setup.fish 1

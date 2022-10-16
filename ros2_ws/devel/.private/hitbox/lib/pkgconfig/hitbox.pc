@@ -1,0 +1,8 @@
+prefix=/home/arc/ros2_ws/devel/.private/hitbox
+
+Name: hitbox
+Description: Description of hitbox
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

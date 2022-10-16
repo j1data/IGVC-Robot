@@ -1,0 +1,96 @@
+[0.058s] Invoking command in '/home/arc/nav2_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_waypoint_follower -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_waypoint_follower
+[0.111s] -- Found OpenCV version 4.5.4
+[0.112s] -- Found image_transport: 3.1.4 (/opt/ros/humble/share/image_transport/cmake)
+[0.472s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.571s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.596s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.846s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.850s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.183s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.095s] -- Found cv_bridge: 3.0.3 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.119s] -- Found nav2_common: 1.1.2 (/home/arc/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[2.121s] -- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.380s] -- Found rclcpp_lifecycle: 16.0.1 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.482s] -- Found rclcpp_components: 16.0.1 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.631s] -- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.855s] -- Found nav2_msgs: 1.1.2 (/home/arc/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[3.307s] -- Found nav2_util: 1.1.2 (/home/arc/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[3.818s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.821s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.294s] -- Found nav2_core: 1.1.2 (/home/arc/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[31.131s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[31.133s] -- Found ament_cmake_gtest: 1.3.2 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[31.303s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[40.044s] -- Added test 'copyright' to check source files copyright and LICENSE
+[40.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[40.053s] -- Configured cppcheck include dirs: /home/arc/nav2_ws/src/navigation2/nav2_waypoint_follower/include
+[40.053s] -- Configured cppcheck exclude dirs and/or files: 
+[40.056s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[40.056s] -- Configured cpplint exclude dirs and/or files: 
+[40.059s] -- Added test 'lint_cmake' to check CMake code style
+[40.062s] -- Added test 'uncrustify' to check C / C++ code style
+[40.062s] -- Configured uncrustify additional arguments: 
+[40.064s] -- Added test 'xmllint' to check XML markup files
+[40.070s] -- Configuring done
+[40.760s] -- Generating done
+[40.767s] -- Build files have been written to: /home/arc/nav2_ws/build/nav2_waypoint_follower
+[40.799s] Invoked command in '/home/arc/nav2_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_waypoint_follower -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_waypoint_follower
+[40.800s] Invoking command in '/home/arc/nav2_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_waypoint_follower -- -j4 -l4
+[40.887s] [35m[1mConsolidate compiler generated dependencies of target waypoint_follower_core[0m
+[40.939s] [ 11%] Built target waypoint_follower_core
+[40.962s] [35m[1mConsolidate compiler generated dependencies of target input_at_waypoint[0m
+[40.998s] [ 22%] Built target input_at_waypoint
+[41.016s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[41.042s] [ 33%] Built target gtest
+[41.061s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[41.086s] [ 44%] Built target gtest_main
+[41.109s] [35m[1mConsolidate compiler generated dependencies of target waypoint_follower[0m
+[41.149s] [ 55%] Built target waypoint_follower
+[41.172s] [35m[1mConsolidate compiler generated dependencies of target test_dynamic_parameters[0m
+[41.213s] [ 66%] Built target test_dynamic_parameters
+[41.235s] [35m[1mConsolidate compiler generated dependencies of target photo_at_waypoint[0m
+[41.275s] [ 77%] Built target photo_at_waypoint
+[41.296s] [35m[1mConsolidate compiler generated dependencies of target wait_at_waypoint[0m
+[41.334s] [ 88%] Built target wait_at_waypoint
+[41.358s] [35m[1mConsolidate compiler generated dependencies of target test_task_executors[0m
+[41.400s] [100%] Built target test_task_executors
+[41.421s] Invoked command in '/home/arc/nav2_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_waypoint_follower -- -j4 -l4
+[41.495s] Invoking command in '/home/arc/nav2_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_waypoint_follower
+[41.510s] -- Install configuration: "Release"
+[41.511s] -- Execute custom install script
+[41.512s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[41.513s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/lib/libwait_at_waypoint.so
+[41.514s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/lib/libphoto_at_waypoint.so
+[41.515s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/lib/libinput_at_waypoint.so
+[41.516s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower
+[41.517s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/input_at_waypoint.hpp
+[41.518s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/photo_at_waypoint.hpp
+[41.519s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/wait_at_waypoint.hpp
+[41.519s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[41.520s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.sh
+[41.521s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.dsv
+[41.522s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower//plugins.xml
+[41.523s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/nav2_waypoint_follower
+[41.523s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/nav2_waypoint_follower
+[41.524s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.sh
+[41.525s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[41.526s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.sh
+[41.526s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.dsv
+[41.527s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.bash
+[41.528s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.sh
+[41.529s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.zsh
+[41.529s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.dsv
+[41.530s] -- Symlinking: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.dsv
+[41.547s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/packages/nav2_waypoint_follower
+[41.548s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/nav2_waypoint_follower__pluginlib__plugin/nav2_waypoint_follower
+[41.549s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/rclcpp_components/nav2_waypoint_follower
+[41.550s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.550s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_libraries-extras.cmake
+[41.551s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.552s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig.cmake
+[41.553s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig-version.cmake
+[41.554s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.xml
+[41.569s] Invoked command in '/home/arc/nav2_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_core:/home/arc/nav2_ws/install/nav2_costmap_2d:/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_voxel_grid:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_costmap_2d/lib:/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_voxel_grid/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_waypoint_follower

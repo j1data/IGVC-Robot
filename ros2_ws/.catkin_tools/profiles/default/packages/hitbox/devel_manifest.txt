@@ -1,0 +1,6 @@
+hitbox
+/home/arc/ros2_ws/devel/.private/hitbox/setup.fish /home/arc/ros2_ws/devel/./setup.fish
+/home/arc/ros2_ws/devel/.private/hitbox/local_setup.fish /home/arc/ros2_ws/devel/./local_setup.fish
+/home/arc/ros2_ws/devel/.private/hitbox/share/hitbox/cmake/hitboxConfig-version.cmake /home/arc/ros2_ws/devel/share/hitbox/cmake/hitboxConfig-version.cmake
+/home/arc/ros2_ws/devel/.private/hitbox/share/hitbox/cmake/hitboxConfig.cmake /home/arc/ros2_ws/devel/share/hitbox/cmake/hitboxConfig.cmake
+/home/arc/ros2_ws/devel/.private/hitbox/lib/pkgconfig/hitbox.pc /home/arc/ros2_ws/devel/lib/pkgconfig/hitbox.pc

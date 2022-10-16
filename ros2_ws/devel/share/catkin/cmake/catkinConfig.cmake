@@ -1,0 +1,1 @@
+/home/arc/ros2_ws/devel/.private/catkin/share/catkin/cmake/catkinConfig.cmake

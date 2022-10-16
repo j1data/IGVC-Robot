@@ -1,0 +1,1 @@
+/home/arc/ros2_ws/devel/.private/catkin/local_setup.zsh

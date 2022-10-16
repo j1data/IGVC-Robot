@@ -1,0 +1,1 @@
+/home/arc/ros2_ws/devel/.private/catkin/lib/python3/dist-packages/catkin/__init__.py

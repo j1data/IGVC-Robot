@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/arc/ros2_ws/devel/.private/catkin/setup.sh

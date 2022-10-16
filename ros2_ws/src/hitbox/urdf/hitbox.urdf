@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="hitbox">
+  <link
+    name="Frame">
+    <inertial>
+      <origin
+        xyz="0.3302 0.25398 -0.4572"
+        rpy="0 0 0" />
+      <mass
+        value="306.81" />
+      <inertia
+        ixx="27.979"
+        ixy="-6.0274E-16"
+        ixz="1.229E-15"
+        iyy="32.534"
+        iyz="3.2928E-16"
+        izz="17.753" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/Frame_Detailed.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.74902 0.74902 0.74902 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/Frame.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="FR_Wheel">
+    <inertial>
+      <origin
+        xyz="0.024308 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="1.4377" />
+      <inertia
+        ixx="0.006867"
+        ixy="-1.0588E-20"
+        ixz="6.6174E-21"
+        iyy="0.0037033"
+        iyz="-5.9778E-36"
+        izz="0.0037033" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/FR_Wheel_Detailed.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.74902 0.74902 0.74902 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/FR_Wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FR_Axel"
+    type="continuous">
+    <origin
+      xyz="0.67333 0.832 0.06477"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Frame" />
+    <child
+      link="FR_Wheel" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="BR_Wheel">
+    <inertial>
+      <origin
+        xyz="0.024308 0 1.3878E-17"
+        rpy="0 0 0" />
+      <mass
+        value="1.4377" />
+      <inertia
+        ixx="0.006867"
+        ixy="-1.0588E-20"
+        ixz="6.6174E-21"
+        iyy="0.0037033"
+        iyz="-5.9778E-36"
+        izz="0.0037033" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/BR_Wheel_Detailed.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.74902 0.74902 0.74902 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/BR_Wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="BR_Axel"
+    type="continuous">
+    <origin
+      xyz="0.67333 0.082398 0.06477"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Frame" />
+    <child
+      link="BR_Wheel" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="FL_Wheel">
+    <inertial>
+      <origin
+        xyz="0.024308 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="1.4377" />
+      <inertia
+        ixx="0.006867"
+        ixy="-1.0588E-20"
+        ixz="1.9852E-20"
+        iyy="0.0037033"
+        iyz="-5.9778E-36"
+        izz="0.0037033" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/FL_Wheel_Detailed.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.74902 0.74902 0.74902 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/FL_Wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FL_Axel"
+    type="continuous">
+    <origin
+      xyz="-0.061544 0.832 0.06477"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Frame" />
+    <child
+      link="FL_Wheel" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="BL_Wheel">
+    <inertial>
+      <origin
+        xyz="0.024308 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="1.4377" />
+      <inertia
+        ixx="0.006867"
+        ixy="-1.0588E-20"
+        ixz="1.9852E-20"
+        iyy="0.0037033"
+        iyz="-5.9778E-36"
+        izz="0.0037033" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/BL_Wheel_Detailed.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.74902 0.74902 0.74902 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hitbox/meshes/BL_Wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="BL_Axel"
+    type="continuous">
+    <origin
+      xyz="-0.061544 0.082398 0.06477"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Frame" />
+    <child
+      link="BL_Wheel" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

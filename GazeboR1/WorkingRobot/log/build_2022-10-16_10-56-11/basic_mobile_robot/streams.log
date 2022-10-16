@@ -1,0 +1,5 @@
+[0.016s] Invoking command in '/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/build/basic_mobile_robot -- -j4 -l4
+[0.037s] [0mCMake Error: The source directory "/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/src/basic_mobile_robot" does not exist.
+[0.037s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.038s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.041s] Invoked command in '/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/build/basic_mobile_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/build/basic_mobile_robot -- -j4 -l4

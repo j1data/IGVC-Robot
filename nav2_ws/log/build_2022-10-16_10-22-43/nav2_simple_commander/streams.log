@@ -1,0 +1,95 @@
+[1.651s] Invoking command in '/home/arc/nav2_ws/build/nav2_simple_commander': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/arc/nav2_ws/install/nav2_simple_commander --uninstall --editable --build-directory /home/arc/nav2_ws/build/nav2_simple_commander/build
+[2.099s] running develop
+[2.100s] /home/arc/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.100s]   warnings.warn(
+[2.134s] /home/arc/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.134s]   warnings.warn(
+[2.278s] /home/arc/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.278s]   warnings.warn(
+[2.279s] /home/arc/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.279s]   warnings.warn(
+[2.418s] Removing /home/arc/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+[2.494s] Invoked command in '/home/arc/nav2_ws/build/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/arc/nav2_ws/install/nav2_simple_commander --uninstall --editable --build-directory /home/arc/nav2_ws/build/nav2_simple_commander/build
+[2.496s] Invoking command in '/home/arc/nav2_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/arc/nav2_ws/build/nav2_simple_commander/build install --prefix /home/arc/nav2_ws/install/nav2_simple_commander --record /home/arc/nav2_ws/build/nav2_simple_commander/install.log --single-version-externally-managed
+[3.048s] running egg_info
+[3.078s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[3.078s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[3.079s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[3.079s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[3.080s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[3.138s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[3.140s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[3.141s] running build
+[3.141s] running build_py
+[3.141s] creating /home/arc/nav2_ws/build/nav2_simple_commander/build
+[3.141s] creating /home/arc/nav2_ws/build/nav2_simple_commander/build/lib
+[3.142s] creating /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.142s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.142s] copying nav2_simple_commander/demo_picking.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.142s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.142s] copying nav2_simple_commander/demo_security.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.143s] copying nav2_simple_commander/example_follow_path.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.143s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.144s] copying nav2_simple_commander/__init__.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.144s] copying nav2_simple_commander/demo_inspection.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.144s] copying nav2_simple_commander/demo_recoveries.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.144s] copying nav2_simple_commander/robot_navigator.py -> /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.144s] running install
+[3.145s] /home/arc/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.145s]   warnings.warn(
+[3.155s] running install_lib
+[3.176s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local
+[3.176s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local/lib
+[3.176s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10
+[3.176s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages
+[3.177s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.177s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.177s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.177s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.177s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.178s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.178s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.178s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.178s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.178s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.178s] copying /home/arc/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander
+[3.178s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[3.179s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[3.180s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[3.182s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[3.183s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[3.183s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[3.184s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[3.184s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[3.185s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[3.186s] byte-compiling /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[3.191s] running install_data
+[3.210s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local/share
+[3.211s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local/share/ament_index
+[3.211s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local/share/ament_index/resource_index
+[3.212s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local/share/ament_index/resource_index/packages
+[3.212s] copying resource/nav2_simple_commander -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/ament_index/resource_index/packages
+[3.213s] creating /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.213s] copying package.xml -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.213s] copying launch/picking_demo_launch.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.213s] copying launch/nav_through_poses_example_launch.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.213s] copying launch/warehouse.world -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.213s] copying launch/follow_path_example_launch.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.214s] copying launch/nav_to_pose_example_launch.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.214s] copying launch/security_demo_launch.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.214s] copying launch/recoveries_example_launch.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.214s] copying launch/waypoint_follower_example_launch.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.214s] copying launch/inspection_demo_launch.py -> /home/arc/nav2_ws/install/nav2_simple_commander/local/share/nav2_simple_commander
+[3.214s] running install_egg_info
+[3.251s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/arc/nav2_ws/install/nav2_simple_commander/local/lib/python3.10/dist-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[3.251s] running install_scripts
+[3.349s] Installing demo_inspection script to /home/arc/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.349s] Installing demo_picking script to /home/arc/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.349s] Installing demo_recoveries script to /home/arc/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.349s] Installing demo_security script to /home/arc/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.349s] Installing example_follow_path script to /home/arc/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.349s] Installing example_nav_through_poses script to /home/arc/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.349s] Installing example_nav_to_pose script to /home/arc/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.349s] Installing example_waypoint_follower script to /home/arc/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.350s] writing list of installed files to '/home/arc/nav2_ws/build/nav2_simple_commander/install.log'
+[3.456s] Invoked command in '/home/arc/nav2_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/arc/nav2_ws/build/nav2_simple_commander/build install --prefix /home/arc/nav2_ws/install/nav2_simple_commander --record /home/arc/nav2_ws/build/nav2_simple_commander/install.log --single-version-externally-managed

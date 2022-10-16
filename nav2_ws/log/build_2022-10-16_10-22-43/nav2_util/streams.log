@@ -1,0 +1,116 @@
+[0.030s] Invoking command in '/home/arc/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_util
+[0.048s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.256s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.271s] -- Found nav2_common: 1.1.2 (/home/arc/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.272s] -- Found nav2_msgs: 1.1.2 (/home/arc/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.324s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.330s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.344s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.180s] -- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.369s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.371s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.555s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.029s] -- Found tf2_geometry_msgs: 0.25.1 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.034s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.036s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.049s] -- Found lifecycle_msgs: 1.2.0 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[2.073s] -- Found rclcpp_lifecycle: 16.0.1 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.099s] -- Found bondcpp: 3.0.2 (/opt/ros/humble/share/bondcpp/cmake)
+[2.250s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.251s] -- Found ament_cmake_pytest: 1.3.2 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.252s] -- Found launch_testing_ament_cmake: 1.0.2 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.253s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.285s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.285s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.285s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.529s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.572s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.577s] -- Configured cppcheck include dirs: /home/arc/nav2_ws/src/navigation2/nav2_util/include
+[2.577s] -- Configured cppcheck exclude dirs and/or files: 
+[2.578s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.578s] -- Configured cpplint exclude dirs and/or files: 
+[2.579s] -- Added test 'lint_cmake' to check CMake code style
+[2.582s] -- Added test 'uncrustify' to check C / C++ code style
+[2.582s] -- Configured uncrustify additional arguments: 
+[2.582s] -- Added test 'xmllint' to check XML markup files
+[2.586s] -- Configuring done
+[2.791s] -- Generating done
+[2.797s] -- Build files have been written to: /home/arc/nav2_ws/build/nav2_util
+[2.815s] Invoked command in '/home/arc/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_util
+[2.816s] Invoking command in '/home/arc/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_util -- -j4 -l4
+[2.868s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[2.870s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[2.883s] [35m[1mConsolidate compiler generated dependencies of target nav2_util_core[0m
+[2.892s] [  5%] Built target gtest
+[2.895s] [ 10%] Built target gtest_main
+[2.910s] [35m[1mConsolidate compiler generated dependencies of target test_execution_timer[0m
+[2.926s] [ 15%] Built target test_execution_timer
+[2.949s] [ 42%] Built target nav2_util_core
+[2.968s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_bringup[0m
+[2.969s] [35m[1mConsolidate compiler generated dependencies of target test_service_client[0m
+[2.972s] [35m[1mConsolidate compiler generated dependencies of target test_node_utils[0m
+[2.989s] [35m[1mConsolidate compiler generated dependencies of target test_string_utils[0m
+[3.012s] [ 47%] Built target lifecycle_bringup
+[3.019s] [ 52%] Built target test_service_client
+[3.019s] [ 57%] Built target test_node_utils
+[3.031s] [ 63%] Built target test_string_utils
+[3.033s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_utils[0m
+[3.041s] [35m[1mConsolidate compiler generated dependencies of target test_actions[0m
+[3.053s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_node[0m
+[3.066s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_cli_node[0m
+[3.086s] [ 71%] Built target test_lifecycle_utils
+[3.086s] [ 73%] Built target test_actions
+[3.102s] [ 78%] Built target test_lifecycle_node
+[3.108s] [ 84%] Built target test_lifecycle_cli_node
+[3.111s] [35m[1mConsolidate compiler generated dependencies of target test_odometry_utils[0m
+[3.119s] [35m[1mConsolidate compiler generated dependencies of target test_geometry_utils[0m
+[3.129s] [35m[1mConsolidate compiler generated dependencies of target test_robot_utils[0m
+[3.150s] [ 89%] Built target test_odometry_utils
+[3.159s] [ 94%] Built target test_geometry_utils
+[3.165s] [100%] Built target test_robot_utils
+[3.178s] Invoked command in '/home/arc/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_util -- -j4 -l4
+[3.217s] Invoking command in '/home/arc/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_util
+[3.224s] -- Install configuration: "Release"
+[3.224s] -- Execute custom install script
+[3.225s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/lib/libnav2_util_core.so
+[3.225s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[3.226s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[3.226s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/costmap.hpp
+[3.226s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/execution_timer.hpp
+[3.226s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[3.227s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[3.227s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[3.227s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[3.227s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/line_iterator.hpp
+[3.227s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/node_thread.hpp
+[3.228s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/node_utils.hpp
+[3.228s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[3.228s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[3.228s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/robot_utils.hpp
+[3.228s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/service_client.hpp
+[3.228s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[3.229s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/include//nav2_util/string_utils.hpp
+[3.229s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[3.229s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[3.229s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[3.229s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[3.229s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[3.230s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[3.230s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[3.231s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[3.232s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[3.232s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[3.233s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[3.233s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[3.233s] -- Symlinking: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/package.dsv
+[3.246s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[3.246s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.246s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[3.246s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.247s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[3.247s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[3.247s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_util/share/nav2_util/package.xml
+[3.255s] Invoked command in '/home/arc/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_util

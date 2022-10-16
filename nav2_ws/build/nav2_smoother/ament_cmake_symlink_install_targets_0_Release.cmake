@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/arc/nav2_ws/build/nav2_smoother/libsmoother_server_core.so" "/home/arc/nav2_ws/build/nav2_smoother/libsimple_smoother.so" "TARGETS" "smoother_server_core" "simple_smoother" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

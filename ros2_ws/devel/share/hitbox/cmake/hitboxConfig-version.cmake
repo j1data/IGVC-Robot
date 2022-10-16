@@ -1,0 +1,1 @@
+/home/arc/ros2_ws/devel/.private/hitbox/share/hitbox/cmake/hitboxConfig-version.cmake

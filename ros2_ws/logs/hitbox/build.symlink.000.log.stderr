@@ -1,0 +1,6 @@
+Warning: Cannot symlink from /home/arc/ros2_ws/devel/.private/hitbox/setup.fish to existing file /home/arc/ros2_ws/devel/./setup.fish
+Warning: Source hash: caa9b6b9fa1fd38fb3fb4d8ee1c89e7d
+Warning: Dest hash: b2cbe25c37e8b7569d88eeec44662c14
+Warning: Cannot symlink from /home/arc/ros2_ws/devel/.private/hitbox/local_setup.fish to existing file /home/arc/ros2_ws/devel/./local_setup.fish
+Warning: Source hash: 4cdb71ababe0b4821fe3e734bf9c4818
+Warning: Dest hash: b917d3372e3af6de681bfaa7c56a0b8f

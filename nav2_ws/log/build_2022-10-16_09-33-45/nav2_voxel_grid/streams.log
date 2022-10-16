@@ -1,0 +1,92 @@
+[0.015s] Invoking command in '/home/arc/nav2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble PYTHONPATH=/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_voxel_grid -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_voxel_grid
+[0.081s] -- The C compiler identification is GNU 11.2.0
+[0.156s] -- The CXX compiler identification is GNU 11.2.0
+[0.165s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.370s] -- Detecting CXX compiler ABI info
+[0.564s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.571s] -- Detecting CXX compile features
+[0.572s] -- Detecting CXX compile features - done
+[0.748s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.079s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.199s] -- Found nav2_common: 1.1.2 (/home/arc/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[2.273s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[2.632s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.658s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.689s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.856s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.078s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.102s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.748s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.824s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.896s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.325s] -- Setting build type to Release as none was specified.
+[4.369s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.658s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.703s] -- Looking for pthread.h
+[5.069s] -- Looking for pthread.h - found
+[5.070s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.213s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.213s] -- Found Threads: TRUE  
+[5.265s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.266s] -- Configured cppcheck include dirs: /home/arc/nav2_ws/src/navigation2/nav2_voxel_grid/include
+[5.266s] -- Configured cppcheck exclude dirs and/or files: 
+[5.282s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.282s] -- Configured cpplint exclude dirs and/or files: 
+[5.311s] -- Added test 'lint_cmake' to check CMake code style
+[5.332s] -- Added test 'uncrustify' to check C / C++ code style
+[5.332s] -- Configured uncrustify additional arguments: 
+[5.349s] -- Added test 'xmllint' to check XML markup files
+[5.374s] -- Configuring done
+[5.397s] -- Generating done
+[5.399s] -- Build files have been written to: /home/arc/nav2_ws/build/nav2_voxel_grid
+[5.419s] Invoked command in '/home/arc/nav2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble PYTHONPATH=/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_voxel_grid -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_voxel_grid
+[5.422s] Invoking command in '/home/arc/nav2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble PYTHONPATH=/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_voxel_grid -- -j4 -l4
+[5.494s] [ 10%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[5.500s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.509s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.701s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[14.068s] [ 40%] Built target gtest_main
+[23.901s] [ 50%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[24.414s] [ 50%] Built target voxel_grid
+[34.143s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[34.216s] [ 60%] Built target gtest
+[34.262s] [ 70%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_bresenham_3d.dir/voxel_grid_bresenham_3d.cpp.o[0m
+[34.298s] [ 80%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[44.378s] [ 90%] [32m[1mLinking CXX executable voxel_grid_bresenham_3d[0m
+[44.385s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[44.680s] [100%] Built target voxel_grid_tests
+[44.793s] [100%] Built target voxel_grid_bresenham_3d
+[44.813s] Invoked command in '/home/arc/nav2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble PYTHONPATH=/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_voxel_grid -- -j4 -l4
+[44.862s] Invoking command in '/home/arc/nav2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble PYTHONPATH=/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_voxel_grid
+[44.881s] -- Install configuration: "Release"
+[44.881s] -- Execute custom install script
+[44.881s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[44.895s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[44.910s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[44.924s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[44.938s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[44.953s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[44.969s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[44.985s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[45.002s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[45.017s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[45.032s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[45.047s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[45.066s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[45.081s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[45.095s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[45.111s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[45.129s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.144s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.155s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[45.165s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[45.175s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[45.189s] -- Symlinking: /home/arc/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[45.210s] Invoked command in '/home/arc/nav2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble PYTHONPATH=/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_voxel_grid

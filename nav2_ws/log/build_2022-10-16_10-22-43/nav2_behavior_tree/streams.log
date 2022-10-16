@@ -1,0 +1,351 @@
+[0.055s] Invoking command in '/home/arc/nav2_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_behavior_tree -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_behavior_tree
+[0.078s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.409s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.426s] -- Found nav2_common: 1.1.2 (/home/arc/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.427s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.505s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.512s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.526s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.766s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.769s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.052s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.442s] -- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.673s] -- Found rclcpp_lifecycle: 16.0.1 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.769s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.880s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.095s] -- Found nav2_msgs: 1.1.2 (/home/arc/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.781s] -- Found behaviortree_cpp_v3: 3.6.0 (/opt/ros/humble/share/behaviortree_cpp_v3/cmake)
+[2.784s] -- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.375s] -- Found tf2_geometry_msgs: 0.25.1 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.385s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.387s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.410s] -- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)
+[3.452s] -- Found nav2_util: 1.1.2 (/home/arc/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[53.877s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[54.196s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[106.319s] -- Added test 'copyright' to check source files copyright and LICENSE
+[106.334s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[106.360s] -- Configured cppcheck include dirs: /home/arc/nav2_ws/src/navigation2/nav2_behavior_tree/include
+[106.360s] -- Configured cppcheck exclude dirs and/or files: 
+[106.373s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[106.373s] -- Configured cpplint exclude dirs and/or files: 
+[106.380s] -- Added test 'lint_cmake' to check CMake code style
+[106.395s] -- Added test 'uncrustify' to check C / C++ code style
+[106.396s] -- Configured uncrustify additional arguments: 
+[106.398s] -- Added test 'xmllint' to check XML markup files
+[106.404s] -- Configuring done
+[110.869s] -- Generating done
+[110.907s] -- Build files have been written to: /home/arc/nav2_ws/build/nav2_behavior_tree
+[110.985s] Invoked command in '/home/arc/nav2_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/arc/nav2_ws/src/navigation2/nav2_behavior_tree -DCMAKE_INSTALL_PREFIX=/home/arc/nav2_ws/install/nav2_behavior_tree
+[110.986s] Invoking command in '/home/arc/nav2_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_behavior_tree -- -j4 -l4
+[111.085s] [35m[1mConsolidate compiler generated dependencies of target nav2_behavior_tree[0m
+[111.123s] [35m[1mConsolidate compiler generated dependencies of target nav2_compute_path_to_pose_action_bt_node[0m
+[111.143s] [  1%] Built target nav2_behavior_tree
+[111.175s] [35m[1mConsolidate compiler generated dependencies of target nav2_controller_cancel_bt_node[0m
+[111.199s] [  2%] Built target nav2_compute_path_to_pose_action_bt_node
+[111.224s] [  3%] Built target nav2_controller_cancel_bt_node
+[111.244s] [35m[1mConsolidate compiler generated dependencies of target nav2_spin_cancel_bt_node[0m
+[111.278s] [  4%] Built target nav2_spin_cancel_bt_node
+[111.297s] [35m[1mConsolidate compiler generated dependencies of target nav2_back_up_cancel_bt_node[0m
+[111.334s] [  5%] Built target nav2_back_up_cancel_bt_node
+[111.353s] [35m[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_cancel_bt_node[0m
+[111.390s] [  7%] Built target nav2_drive_on_heading_cancel_bt_node
+[111.410s] [35m[1mConsolidate compiler generated dependencies of target nav2_smooth_path_action_bt_node[0m
+[111.447s] [  8%] Built target nav2_smooth_path_action_bt_node
+[111.466s] [35m[1mConsolidate compiler generated dependencies of target nav2_follow_path_action_bt_node[0m
+[111.502s] [  9%] Built target nav2_follow_path_action_bt_node
+[111.522s] [35m[1mConsolidate compiler generated dependencies of target nav2_back_up_action_bt_node[0m
+[111.558s] [ 10%] Built target nav2_back_up_action_bt_node
+[111.576s] [35m[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_bt_node[0m
+[111.611s] [ 11%] Built target nav2_drive_on_heading_bt_node
+[111.632s] [35m[1mConsolidate compiler generated dependencies of target nav2_spin_action_bt_node[0m
+[111.667s] [ 13%] Built target nav2_spin_action_bt_node
+[111.685s] [35m[1mConsolidate compiler generated dependencies of target nav2_wait_action_bt_node[0m
+[111.721s] [ 14%] Built target nav2_wait_action_bt_node
+[111.741s] [35m[1mConsolidate compiler generated dependencies of target nav2_clear_costmap_service_bt_node[0m
+[111.774s] [ 15%] Built target nav2_clear_costmap_service_bt_node
+[111.795s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_stuck_condition_bt_node[0m
+[111.835s] [ 16%] Built target nav2_is_stuck_condition_bt_node
+[111.859s] [35m[1mConsolidate compiler generated dependencies of target nav2_transform_available_condition_bt_node[0m
+[111.900s] [ 17%] Built target nav2_transform_available_condition_bt_node
+[111.922s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_reached_condition_bt_node[0m
+[111.964s] [ 18%] Built target nav2_goal_reached_condition_bt_node
+[111.986s] [35m[1mConsolidate compiler generated dependencies of target nav2_globally_updated_goal_condition_bt_node[0m
+[112.025s] [ 19%] Built target nav2_globally_updated_goal_condition_bt_node
+[112.048s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updated_condition_bt_node[0m
+[112.077s] [ 20%] Built target nav2_goal_updated_condition_bt_node
+[112.101s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_path_valid_condition_bt_node[0m
+[112.139s] [ 21%] Built target nav2_is_path_valid_condition_bt_node
+[112.162s] [35m[1mConsolidate compiler generated dependencies of target nav2_time_expired_condition_bt_node[0m
+[112.201s] [ 22%] Built target nav2_time_expired_condition_bt_node
+[112.223s] [35m[1mConsolidate compiler generated dependencies of target nav2_path_expiring_timer_condition[0m
+[112.262s] [ 23%] Built target nav2_path_expiring_timer_condition
+[112.285s] [35m[1mConsolidate compiler generated dependencies of target nav2_distance_traveled_condition_bt_node[0m
+[112.325s] [ 24%] Built target nav2_distance_traveled_condition_bt_node
+[112.345s] [35m[1mConsolidate compiler generated dependencies of target nav2_initial_pose_received_condition_bt_node[0m
+[112.371s] [ 25%] Built target nav2_initial_pose_received_condition_bt_node
+[112.390s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_battery_low_condition_bt_node[0m
+[112.423s] [ 26%] Built target nav2_is_battery_low_condition_bt_node
+[112.444s] [35m[1mConsolidate compiler generated dependencies of target nav2_reinitialize_global_localization_service_bt_node[0m
+[112.478s] [ 27%] Built target nav2_reinitialize_global_localization_service_bt_node
+[112.497s] [35m[1mConsolidate compiler generated dependencies of target nav2_rate_controller_bt_node[0m
+[112.522s] [ 28%] Built target nav2_rate_controller_bt_node
+[112.542s] [35m[1mConsolidate compiler generated dependencies of target nav2_distance_controller_bt_node[0m
+[112.578s] [ 29%] Built target nav2_distance_controller_bt_node
+[112.598s] [35m[1mConsolidate compiler generated dependencies of target nav2_speed_controller_bt_node[0m
+[112.634s] [ 30%] Built target nav2_speed_controller_bt_node
+[112.655s] [35m[1mConsolidate compiler generated dependencies of target nav2_truncate_path_action_bt_node[0m
+[112.691s] [ 31%] Built target nav2_truncate_path_action_bt_node
+[112.710s] [35m[1mConsolidate compiler generated dependencies of target nav2_truncate_path_local_action_bt_node[0m
+[112.746s] [ 32%] Built target nav2_truncate_path_local_action_bt_node
+[112.766s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updater_node_bt_node[0m
+[112.801s] [ 33%] Built target nav2_goal_updater_node_bt_node
+[112.821s] [35m[1mConsolidate compiler generated dependencies of target nav2_path_longer_on_approach_bt_node[0m
+[112.857s] [ 34%] Built target nav2_path_longer_on_approach_bt_node
+[112.877s] [35m[1mConsolidate compiler generated dependencies of target nav2_recovery_node_bt_node[0m
+[112.902s] [ 35%] Built target nav2_recovery_node_bt_node
+[112.923s] [35m[1mConsolidate compiler generated dependencies of target nav2_navigate_to_pose_action_bt_node[0m
+[112.959s] [ 37%] Built target nav2_navigate_to_pose_action_bt_node
+[112.979s] [35m[1mConsolidate compiler generated dependencies of target nav2_navigate_through_poses_action_bt_node[0m
+[113.015s] [ 38%] Built target nav2_navigate_through_poses_action_bt_node
+[113.035s] [35m[1mConsolidate compiler generated dependencies of target nav2_remove_passed_goals_action_bt_node[0m
+[113.072s] [ 39%] Built target nav2_remove_passed_goals_action_bt_node
+[113.091s] [35m[1mConsolidate compiler generated dependencies of target nav2_pipeline_sequence_bt_node[0m
+[113.117s] [ 40%] Built target nav2_pipeline_sequence_bt_node
+[113.135s] [35m[1mConsolidate compiler generated dependencies of target nav2_round_robin_node_bt_node[0m
+[113.160s] [ 41%] Built target nav2_round_robin_node_bt_node
+[113.180s] [35m[1mConsolidate compiler generated dependencies of target nav2_single_trigger_bt_node[0m
+[113.205s] [ 42%] Built target nav2_single_trigger_bt_node
+[113.225s] [35m[1mConsolidate compiler generated dependencies of target nav2_planner_selector_bt_node[0m
+[113.260s] [ 43%] Built target nav2_planner_selector_bt_node
+[113.279s] [35m[1mConsolidate compiler generated dependencies of target nav2_controller_selector_bt_node[0m
+[113.313s] [ 44%] Built target nav2_controller_selector_bt_node
+[113.333s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_checker_selector_bt_node[0m
+[113.367s] [ 45%] Built target nav2_goal_checker_selector_bt_node
+[113.385s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updated_controller_bt_node[0m
+[113.418s] [ 46%] Built target nav2_goal_updated_controller_bt_node
+[113.435s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[113.458s] [ 47%] Built target gtest_main
+[113.476s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[113.501s] [ 48%] Built target gtest
+[113.521s] [35m[1mConsolidate compiler generated dependencies of target nav2_wait_cancel_bt_node[0m
+[113.557s] [ 49%] Built target nav2_wait_cancel_bt_node
+[113.577s] [35m[1mConsolidate compiler generated dependencies of target test_condition_distance_traveled[0m
+[113.615s] [ 51%] Built target test_condition_distance_traveled
+[113.636s] [35m[1mConsolidate compiler generated dependencies of target test_condition_time_expired[0m
+[113.674s] [ 52%] Built target test_condition_time_expired
+[113.694s] [35m[1mConsolidate compiler generated dependencies of target test_condition_path_expiring_timer[0m
+[113.732s] [ 53%] Built target test_condition_path_expiring_timer
+[113.752s] [35m[1mConsolidate compiler generated dependencies of target test_condition_goal_reached[0m
+[113.790s] [ 54%] Built target test_condition_goal_reached
+[113.810s] [35m[1mConsolidate compiler generated dependencies of target test_condition_goal_updated[0m
+[113.847s] [ 55%] Built target test_condition_goal_updated
+[113.868s] [35m[1mConsolidate compiler generated dependencies of target test_condition_globally_updated_goal[0m
+[113.905s] [ 56%] Built target test_condition_globally_updated_goal
+[113.926s] [35m[1mConsolidate compiler generated dependencies of target test_condition_initial_pose_received[0m
+[113.962s] [ 57%] Built target test_condition_initial_pose_received
+[113.983s] [35m[1mConsolidate compiler generated dependencies of target test_condition_transform_available[0m
+[114.022s] [ 58%] Built target test_condition_transform_available
+[114.042s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_stuck[0m
+[114.080s] [ 59%] Built target test_condition_is_stuck
+[114.101s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_battery_low[0m
+[114.137s] [ 60%] Built target test_condition_is_battery_low
+[114.157s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_path_valid[0m
+[114.195s] [ 61%] Built target test_condition_is_path_valid
+[114.216s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_distance_controller[0m
+[114.255s] [ 62%] Built target test_decorator_distance_controller
+[114.276s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_speed_controller[0m
+[114.314s] [ 63%] Built target test_decorator_speed_controller
+[114.334s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_rate_controller[0m
+[114.372s] [ 64%] Built target test_decorator_rate_controller
+[114.392s] [35m[1mConsolidate compiler generated dependencies of target test_goal_updater_node[0m
+[114.429s] [ 65%] Built target test_goal_updater_node
+[114.448s] [35m[1mConsolidate compiler generated dependencies of target test_single_trigger_node[0m
+[114.485s] [ 66%] Built target test_single_trigger_node
+[114.506s] [35m[1mConsolidate compiler generated dependencies of target test_goal_updated_controller[0m
+[114.543s] [ 67%] Built target test_goal_updated_controller
+[114.563s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_path_longer_on_approach[0m
+[114.601s] [ 68%] Built target test_decorator_path_longer_on_approach
+[114.621s] [35m[1mConsolidate compiler generated dependencies of target test_control_recovery_node[0m
+[114.658s] [ 69%] Built target test_control_recovery_node
+[114.678s] [35m[1mConsolidate compiler generated dependencies of target test_control_pipeline_sequence[0m
+[114.715s] [ 70%] Built target test_control_pipeline_sequence
+[114.735s] [35m[1mConsolidate compiler generated dependencies of target test_control_round_robin_node[0m
+[114.773s] [ 72%] Built target test_control_round_robin_node
+[114.793s] [35m[1mConsolidate compiler generated dependencies of target test_bt_action_node[0m
+[114.830s] [ 73%] Built target test_bt_action_node
+[114.850s] [35m[1mConsolidate compiler generated dependencies of target test_action_spin_action[0m
+[114.886s] [ 74%] Built target test_action_spin_action
+[114.906s] [35m[1mConsolidate compiler generated dependencies of target test_action_back_up_action[0m
+[114.943s] [ 75%] Built target test_action_back_up_action
+[114.964s] [35m[1mConsolidate compiler generated dependencies of target test_action_drive_on_heading[0m
+[115.001s] [ 77%] Built target test_action_drive_on_heading
+[115.021s] [35m[1mConsolidate compiler generated dependencies of target test_action_wait_action[0m
+[115.058s] [ 78%] Built target test_action_wait_action
+[115.078s] [35m[1mConsolidate compiler generated dependencies of target test_action_controller_cancel_action[0m
+[115.115s] [ 79%] Built target test_action_controller_cancel_action
+[115.135s] [35m[1mConsolidate compiler generated dependencies of target test_action_wait_cancel_action[0m
+[115.171s] [ 80%] Built target test_action_wait_cancel_action
+[115.190s] [35m[1mConsolidate compiler generated dependencies of target test_action_spin_cancel_action[0m
+[115.225s] [ 81%] Built target test_action_spin_cancel_action
+[115.244s] [35m[1mConsolidate compiler generated dependencies of target test_action_back_up_cancel_action[0m
+[115.280s] [ 82%] Built target test_action_back_up_cancel_action
+[115.298s] [35m[1mConsolidate compiler generated dependencies of target test_action_drive_on_heading_cancel_action[0m
+[115.334s] [ 83%] Built target test_action_drive_on_heading_cancel_action
+[115.353s] [35m[1mConsolidate compiler generated dependencies of target test_action_clear_costmap_service[0m
+[115.386s] [ 84%] Built target test_action_clear_costmap_service
+[115.405s] [35m[1mConsolidate compiler generated dependencies of target test_action_reinitialize_global_localization_service[0m
+[115.438s] [ 85%] Built target test_action_reinitialize_global_localization_service
+[115.457s] [35m[1mConsolidate compiler generated dependencies of target test_action_compute_path_to_pose_action[0m
+[115.492s] [ 86%] Built target test_action_compute_path_to_pose_action
+[115.511s] [35m[1mConsolidate compiler generated dependencies of target test_action_smooth_path_action[0m
+[115.546s] [ 87%] Built target test_action_smooth_path_action
+[115.565s] [35m[1mConsolidate compiler generated dependencies of target test_action_follow_path_action[0m
+[115.600s] [ 88%] Built target test_action_follow_path_action
+[115.619s] [35m[1mConsolidate compiler generated dependencies of target test_action_navigate_to_pose_action[0m
+[115.656s] [ 89%] Built target test_action_navigate_to_pose_action
+[115.675s] [35m[1mConsolidate compiler generated dependencies of target test_action_navigate_through_poses_action[0m
+[115.710s] [ 90%] Built target test_action_navigate_through_poses_action
+[115.729s] [35m[1mConsolidate compiler generated dependencies of target test_truncate_path_action[0m
+[115.765s] [ 91%] Built target test_truncate_path_action
+[115.784s] [35m[1mConsolidate compiler generated dependencies of target test_truncate_path_local_action[0m
+[115.820s] [ 93%] Built target test_truncate_path_local_action
+[115.839s] [35m[1mConsolidate compiler generated dependencies of target test_remove_passed_goals_action[0m
+[115.875s] [ 94%] Built target test_remove_passed_goals_action
+[115.894s] [35m[1mConsolidate compiler generated dependencies of target test_planner_selector_node[0m
+[115.928s] [ 95%] Built target test_planner_selector_node
+[115.947s] [35m[1mConsolidate compiler generated dependencies of target test_controller_selector_node[0m
+[115.981s] [ 96%] Built target test_controller_selector_node
+[116.000s] [35m[1mConsolidate compiler generated dependencies of target test_goal_checker_selector_node[0m
+[116.035s] [ 97%] Built target test_goal_checker_selector_node
+[116.053s] [35m[1mConsolidate compiler generated dependencies of target test_bt_conversions[0m
+[116.081s] [ 98%] Built target test_bt_conversions
+[116.102s] [35m[1mConsolidate compiler generated dependencies of target nav2_compute_path_through_poses_action_bt_node[0m
+[116.136s] [ 99%] Built target nav2_compute_path_through_poses_action_bt_node
+[116.155s] [35m[1mConsolidate compiler generated dependencies of target test_action_compute_path_through_poses_action[0m
+[116.192s] [100%] Built target test_action_compute_path_through_poses_action
+[116.215s] Invoked command in '/home/arc/nav2_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arc/nav2_ws/build/nav2_behavior_tree -- -j4 -l4
+[116.543s] Invoking command in '/home/arc/nav2_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_behavior_tree
+[116.559s] -- Install configuration: "Release"
+[116.559s] -- Execute custom install script
+[116.559s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[116.560s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[116.560s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[116.560s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[116.560s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[116.561s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[116.561s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[116.562s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[116.562s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[116.562s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[116.562s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[116.563s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[116.563s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[116.564s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[116.564s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[116.566s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[116.566s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[116.566s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[116.567s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[116.567s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[116.567s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[116.568s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[116.568s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[116.568s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[116.569s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[116.569s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[116.569s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[116.569s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[116.570s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[116.570s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[116.570s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[116.571s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[116.571s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[116.572s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[116.572s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[116.572s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[116.573s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[116.573s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[116.573s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[116.573s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[116.574s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[116.574s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[116.574s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[116.575s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[116.575s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[116.577s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[116.577s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[116.577s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[116.577s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[116.578s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[116.578s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[116.578s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[116.579s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[116.579s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[116.579s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[116.579s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[116.579s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[116.580s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[116.580s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[116.580s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[116.580s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[116.581s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[116.581s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[116.581s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[116.581s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[116.582s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[116.582s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[116.582s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[116.583s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[116.583s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[116.583s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[116.583s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[116.584s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[116.584s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[116.584s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[116.584s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[116.585s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[116.585s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[116.585s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[116.585s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[116.586s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[116.586s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[116.586s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[116.586s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[116.587s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[116.587s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[116.587s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[116.588s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[116.595s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[116.595s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[116.595s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[116.595s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[116.596s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[116.596s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[116.596s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[116.596s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[116.596s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[116.596s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[116.596s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[116.597s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[116.597s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[116.597s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[116.597s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[116.597s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[116.597s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[116.597s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[116.597s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[116.597s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[116.598s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[116.598s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[116.598s] -- Symlinking: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[116.614s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[116.614s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[116.614s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[116.615s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[116.615s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[116.616s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[116.618s] -- Up-to-date symlink: /home/arc/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[116.624s] Invoked command in '/home/arc/nav2_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arc/nav2_ws/install/nav2_util:/home/arc/nav2_ws/install/nav2_msgs:/home/arc/nav2_ws/install/nav2_common:/home/arc/workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/home/arc/nav2_ws/install/nav2_util/lib:/home/arc/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arc/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/arc/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arc/nav2_ws/build/nav2_behavior_tree

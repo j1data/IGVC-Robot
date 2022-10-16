@@ -1,0 +1,2 @@
+Invoking command in '/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/build/basic_mobile_robot -- -j4 -l4
+Invoked command in '/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/build/basic_mobile_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/build/basic_mobile_robot -- -j4 -l4
