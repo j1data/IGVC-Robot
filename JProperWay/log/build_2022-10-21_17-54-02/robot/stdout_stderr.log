@@ -1,0 +1,41 @@
+-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot
+-- Install configuration: ""
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/config
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/config/model.config
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/launch
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/launch/robot.launch.py
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/maps
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes/Frame_Detailed.STL
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes/Wheel_Detailed.STL
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes/Frame.STL
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/models
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/models/model.sdf
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/params
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/rviz
+-- Installing: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/rviz/urdf_config.rviz
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/src
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/worlds
+-- Installing: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/environment/ament_prefix_path.sh
+-- Installing: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/environment/path.sh
+-- Installing: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/environment/path.dsv
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/local_setup.bash
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/local_setup.sh
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/local_setup.zsh
+-- Installing: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/local_setup.dsv
+-- Installing: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/package.dsv
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/ament_index/resource_index/packages/robot
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/cmake/robotConfig.cmake
+-- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/cmake/robotConfig-version.cmake
+-- Installing: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/package.xml

@@ -43,6 +43,20 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot" TYPE DIRECTORY FILES
+    "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/src/robot/config"
+    "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/src/robot/launch"
+    "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/src/robot/maps"
+    "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/src/robot/meshes"
+    "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/src/robot/models"
+    "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/src/robot/params"
+    "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/src/robot/rviz"
+    "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/src/robot/src"
+    "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/src/robot/worlds"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot")
 endif()
 

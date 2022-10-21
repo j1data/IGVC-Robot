@@ -24,7 +24,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Frame_Detailed.STL</uri>
+            <uri>../meshes/Frame_Detailed.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -39,7 +39,7 @@
         <pose>0 0 0.04826 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Frame.STL</uri>
+            <uri>../meshes/Frame.STL</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -195,7 +195,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            <uri>../meshes/Wheel_Detailed.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -295,7 +295,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            <uri>../meshes/Wheel_Detailed.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -394,7 +394,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            <uri>../meshes/Wheel_Detailed.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -493,7 +493,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>/home/arc/Documents/GitHub/IGVC-Robot/GazeboR1/WorkingRobot/Wheel_Detailed.STL</uri>
+            <uri>../meshes/Wheel_Detailed.STL</uri>
           </mesh>
         </geometry>
         <material>
