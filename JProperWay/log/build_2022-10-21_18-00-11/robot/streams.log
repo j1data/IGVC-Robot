@@ -1,0 +1,36 @@
+[0.022s] Invoking command in '/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arc/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot -- -j4 -l4
+[0.077s] Invoked command in '/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arc/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot -- -j4 -l4
+[0.130s] Invoking command in '/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arc/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot
+[0.142s] -- Install configuration: ""
+[0.142s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/config
+[0.142s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/config/robot.config
+[0.142s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/launch
+[0.143s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/launch/robot.launch.py
+[0.143s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/maps
+[0.143s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes
+[0.143s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes/Frame_Detailed.STL
+[0.143s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes/Wheel_Detailed.STL
+[0.144s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes/Frame.STL
+[0.144s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/models
+[0.144s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/models/robot.sdf
+[0.144s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/params
+[0.144s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/rviz
+[0.144s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/rviz/urdf_config.rviz
+[0.144s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/src
+[0.145s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/worlds
+[0.145s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[0.145s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[0.145s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/environment/ament_prefix_path.sh
+[0.145s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/environment/ament_prefix_path.dsv
+[0.145s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/environment/path.sh
+[0.145s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/environment/path.dsv
+[0.146s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/local_setup.bash
+[0.147s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/local_setup.sh
+[0.147s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/local_setup.zsh
+[0.148s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/local_setup.dsv
+[0.148s] -- Installing: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/package.dsv
+[0.148s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/ament_index/resource_index/packages/robot
+[0.149s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/cmake/robotConfig.cmake
+[0.149s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/cmake/robotConfig-version.cmake
+[0.150s] -- Up-to-date: /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/package.xml
+[0.150s] Invoked command in '/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arc/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/build/robot

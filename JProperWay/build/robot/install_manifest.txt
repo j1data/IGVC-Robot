@@ -1,9 +1,9 @@
-/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/config/model.config
+/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/config/robot.config
 /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/launch/robot.launch.py
 /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes/Frame_Detailed.STL
 /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes/Wheel_Detailed.STL
 /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/meshes/Frame.STL
-/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/models/model.sdf
+/home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/models/robot.sdf
 /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/robot/rviz/urdf_config.rviz
 /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
 /home/arc/Documents/GitHub/IGVC-Robot/JProperWay/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
