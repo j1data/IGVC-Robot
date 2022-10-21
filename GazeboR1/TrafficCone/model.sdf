@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<sdf version='1.5'>
+  <model name='TrafficCone'>
+    <static>true</static>
+    <link name="traffic_cone">
+      <visual name="visual">
+            <geometry>
+                <mesh>
+                    <uri>/home/arc/Downloads/Cone.dae</uri>
+                </mesh>
+            </geometry>
+        </visual>
+        <collision name="collision">
+            <geometry>
+                <mesh>
+                    <uri>/home/arc/Downloads</uri>
+                </mesh>
+            </geometry>
+        </collision>
+    </link>
+  </model>
+</sdf>
